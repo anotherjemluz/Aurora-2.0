@@ -1,126 +1,137 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Aurora | Sobre</title>
-	<link href="css/conheca.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Aurora | Sobre</title>
+		<link href="css/conheca.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
+	</head>
 
-<body>
-	<header>
-			<nav>
-				<a></a>
-				<div class="menu-principal font-open-sans">
-					<ul class="ul-principal">
-						<li><a href="">conheça</a></li>
-						<li><a href="">acompanhe</a></li>
-						<li><a href="">siga</a></li>
-					</ul>
+	<body>
+		<header>
+				<nav class="font-open-sans">
+					<div class="menu-principal">
+						<ul class="ul-principal">
+							<li><a id="ativo" href="index.html">conheça</a></li>
+							<li><a href="blog.html">acompanhe</a></li>
+							<li><a href="siga.html">siga</a></li>
+						</ul>
+					</div>
+					<div class="menu-secundario">
+						<ul class="ul-secundario">
+							<li><a href="">o que é?</a></li>
+							<li><a href="">como surgiu?</a></li>
+							<li><a href="">e o progresso?</a></li>
+						</ul>
+					</div>
+				</nav>
+				<button id="botao-menu"></button>
+		</header>
+		<main class="font-open-sans">
+			<section id="oq-content">	
+				<div class="texto-oq">
+					<h1 id="title-oq">O que é?</h1>
+					<p>Aurora é uma ferramenta <br>	
+						voltada para instruir e auxíliar <br>pessoas a compreenderem <br> 
+						a saúde mental.
+					</p>	
 				</div>
-				<div class="menu-secundario font-open-sans">
-					<ul class="ul-secundario">
-						<li><a href="">o que é?</a></li>
-						<li><a href="">como surgiu?</a></li>
-						<li><a href="">e o progresso?</a></li>
-					</ul>
+				
+				<img id="cerebro-img" src="images/paginas/sobre/img1.svg" alt="ilustração de um cérebro">
+			</section>
+			
+			<section id="cs-content">
+				<div id="texto-cs">
+					<h1>Como surgiu?</h1>
+					<p>Inicialmente em parceiria <br>com uma ONG, a ideia era <br>
+							preparar as pessoas que não são <br>diretamente afetadas por <br>
+							transtornos mentais, a lidar com <br>essa esfera. <br> <br>
+							Isso culminou em um aplicativo <br>mobile que reune informação<br>
+							e jornada de aprendizado para<br>promover relações assertivas e<br>
+							favorecer a recuperação dos que<br>lidam diariamente com<br>
+							transtornos mentais.</p>	
 				</div>
-			</nav>
-	</header>
-	<main>
-		<section id="oq-content">	
-			<div class="texto-oq">
-				<h1 id="title-oq" class="font-open-sans">O que é?</h1>
-				<p  class="font-existence">Aurora é uma ferramenta <br>	
-					voltada para instruir e auxíliar <br>pessoas a compreenderem <br> 
-					a saúde mental.
-				</p>	
+				<img id="mobile-img" src="images/paginas/sobre/img2.svg" alt="ilustração de uma lampada acesa, representando a ideia, e de dois celulares, representando o aplicativo">
+			</section>
+			
+			<section id="progresso-content">
+				<div id="lado-a-lado-progresso">
+					<div id="texto-progresso">
+						<h1>E o progresso?</h1>
+
+						<button id="botao-anterior"></button>
+						<button id="botao-proximo"></button>
+
+						<div class="2016-2">
+							<h3>esboçando</h3>
+							<p>Realizamos toda a prototipagem <br>do aplicativo, a fim de materializar <br>
+									o que foi pensado. O que serviu <br>como validação da idéia e nos <br>
+									deu uma noção da seriedade <br>do projeto.</p>
+							<h3>2016.2</h3>
+							<div id="progress-bar">
+								<div id="fill-bar"></div>
+							</div>
+							<img id="cel-img" src="images/paginas/sobre/img2.svg" alt="ilustração de um protótipo de celular">
+						</div>
+
+						<div class="2017-1">
+							<h3>escrevendo</h3>
+							<p>Agora com a identidade firmada <br>e mecânicas esclarecidas, <br>
+									começamos a concepção do <br>conteúdo em conjunto com <br>
+									parceiros, garantindo assim sua <br>qualidade e confiabilidade.<br>
+							</p>
+							<h3>2017.1</h3>
+							<div id="progress-bar">
+								<div id="fill-bar"></div>
+							</div>
+							<img id="papel-img" src="images/paginas/sobre/img2.svg" alt="ilustração de uma folha de papel">
+						</div>
+
+						<div class="2017-2">
+								<h3>programando</h3>
+								<p>Publicamos nosso site e inicamos <br>a jornada na programação do <br>
+										aplicativo, uma revisão de todo <br>o layout, e estudo de possíveis <br>
+										novas mecânicas.
+								</p>
+								<h3>2017.2</h3>
+								<div id="progress-bar">
+									<div id="fill-bar"></div>
+								</div>
+								<img id="pc-img" src="images/paginas/sobre/img2.svg" alt="ilustração de um computador com linhas de código na tela">
+							</div>		
+					</div>
+				</div>	
+			</section>
+			
+			<section id="chamada-blog">
+				<h2>Quer ficar por dentro de <br>todo o desenvolvimento?</h4>
+				<h4 class="acess-text">você pode</h4>
+				<a id="link-blog" href="acompanhe_design.html">Dá uma olhada no nosso blog!</a>
+			</section>
+			</main>
+		<footer>
+			<div id="top-div">
+				<button id="topbutton" src="images/paginas/footer/top.svg"></button>
+				<!--
+					<button id="topbutton"><a href="#top"><img id="top-img" src="images/paginas/footer/top.svg"></a></button>
+				-->
+				<h4  class="font-open-sans acess-text">voltar para o topo</h4>
 			</div>
 			
-			<img id="cerebro-img" src="images/paginas/sobre/img1.svg" alt="ilustração de um cérebro">
-		</section>
-		
-		<section id="cs-content">
-			<div id="texto-cs">
-				<h1 class="font-open-sans">Como surgiu?</h1>
-				<p class="font-existence">Inicialmente em parceiria <br>com uma ONG, a ideia era <br>
-						preparar as pessoas que não são <br>diretamente afetadas por <br>
-						transtornos mentais, a lidar com <br>essa esfera. <br> <br>
-						Isso culminou em um aplicativo <br>mobile que reune informação<br>
-						e jornada de aprendizado para<br>promover relações assertivas e<br>
-						favorecer a recuperação dos que<br>lidam diariamente com<br>
-						transtornos mentais.</p>	
+			<div id="chamada-contato">
+				<img id="bunequim-img" src="images/paginas/footer/bunequim.svg" alt="imagem de um bonequinho simpático lhe convidando a ir para página de contato">
+				<h5 class="font-open-sans open-light">GOSTOU? TEM DÚVIDAS?<br><a id="link-contato-footer" class="open-bold" href="siga.html">FALE COM A GENTE!</a></h5>
 			</div>
-			<img id="mobile-img" src="images/paginas/sobre/img2.svg" alt="ilustração de uma lampada acesa, representando a ideia, e de dois celulares, representando o aplicativo">
-		</section>
-		
-		<section id="progresso-content">
-			<div id="lado-a-lado-progresso">
-				<div id="texto-progresso">
-					<h1 class="font-open-sans">E o progresso?</h1>
-					<div class="2016-2">
-						<h3 class="font-open-sans">esboçando</h3>
-						<p class="font-existence">Realizamos toda a prototipagem <br>do aplicativo, a fim de materializar <br>
-								o que foi pensado. O que serviu <br>como validação da idéia e nos <br>
-								deu uma noção da seriedade <br>do projeto.
-						</p>
-						<h3 class="font-open-sans">2016.2</h3>
-						<img id="cel-img" src="images/paginas/sobre/img2.svg" alt="ilustração de um protótipo de celular">
-					</div>
+			
+			<div id="fb-div">
+					<button id="facebutton"><img id="fb-img" src="images/paginas/footer/facebook.svg"></button>
+					<h4  class="font-open-sans acess-text">visitar o facebook</h4>
+			</div>
 
-					<div class="2017-1">
-						<h3 class="font-open-sans">escrevendo</h3>
-						<p class="font-existence">Agora com a identidade firmada <br>e mecânicas esclarecidas, <br>
-								começamos a concepção do <br>conteúdo em conjunto com <br>
-								parceiros, garantindo assim sua <br>qualidade e confiabilidade.<br>
-						</p>
-						<h3 class="font-open-sans">2017.1</h3>
-						<img id="papel-img" src="images/paginas/sobre/img2.svg" alt="ilustração de uma folha de papel">
-					</div>
-
-					<div class="2017-2">
-							<h3 class="font-open-sans">programando</h3>
-							<p class="font-existence">Publicamos nosso site e inicamos <br>a jornada na programação do <br>
-									aplicativo, uma revisão de todo <br>o layout, e estudo de possíveis <br>
-									novas mecânicas.
-							</p>
-							<h3 class="font-open-sans">2017.2</h3>
-							<img id="pc-img" src="images/paginas/sobre/img2.svg" alt="ilustração de um computador com linhas de código na tela">
-					
-						</div>		
-				</div>
-			</div>	
-		</section>
-		
-		<section id="chamada-blog">
-			<h2  class="font-open-sans">Quer ficar por dentro de <br>todo o desenvolvimento?</h4>
-			<h4  class="font-open-sans acess-text">você pode</h4>
-			<a id="link-blog" href="acompanhe_design.html">Dá uma olhada no nosso blog!</a>
-		</section>
-	</main>
-	<footer>
-		<div id="top-div">
-			<button id="topbutton" src="images/paginas/footer/top.svg"></button>
-			<!--
-				<button id="topbutton"><a href="#top"><img id="top-img" src="images/paginas/footer/top.svg"></a></button>
-			-->
-			<h4  class="font-open-sans acess-text">voltar para o topo</h4>
-		</div>
-		
-		<div id="chamada-contato">
-			<img id="bunequim-img" src="images/paginas/footer/bunequim.svg" alt="imagem de um bonequinho simpático lhe convidando a ir para página de contato">
-			<h5 class="font-open-sans open-light">GOSTOU? TEM DÚVIDAS?<br><a id="link-contato-footer" class="open-bold" href="conheca_contato.html">FALE COM A GENTE!</a></h5>
-		</div>
-		
-		<div id="fb-div">
-				<button id="facebutton"><a><img id="fb-img" src="images/paginas/footer/facebook.svg"></a></button>
-				<h4  class="font-open-sans acess-text">visitar o facebook</h4>
-		</div>
-
-		<div id="copy-footer">
-			<h4 id="5ights-footer">5ights © 2017</h4>
-			<h5>Todos os direitos reservados.</h5>
-		</div>
-	</footer>
-</body>
+			<div id="copy-footer">
+				<h4 id="5ights-footer">5ights © 2017</h4>
+				<h5 class="font-open-sans">Todos os direitos reservados.</h5>
+			</div>
+		</footer>
+	</body>
 </html>
