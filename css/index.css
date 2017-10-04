@@ -1,0 +1,15 @@
+body {
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #CB829F;
+  background-image: -webkit-gradient(linear, to top left, from(#4F9EC6), to(#CB829F));
+  background-image: -webkit-linear-gradient(to top left, #4F9EC6, #CB829F);
+  background-image: -moz-linear-gradient(to top left, #4F9EC6, #CB829F);
+  background-image: -ms-linear-gradient(to top left, #4F9EC6, #CB829F);
+  background-image: -o-linear-gradient(to top left, #4F9EC6, #CB829F);
+  background-image: linear-gradient(to top left, #4F9EC6, #CB829F);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#4F9EC6', EndColorStr='#CB829F'); }
+  body ul {
+    list-style-type: none; }
