@@ -53,8 +53,8 @@ p {
     flex-shrink: 0;
     align-self: center; } }
 #botao-proximo, #botao-anterior {
-  height: 10vh;
-  width: 10vw;
+  height: 50vh;
+  width: 8vw;
   border: none;
   background: transparent; }
 
@@ -121,31 +121,28 @@ h3 {
   height: 60vw; }
 
 #cel-space {
-  width: auto;
-  height: 70vh; }
+  width: 70%;
+  height: 60%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column; }
 
 #cel-img1 {
-  position: relative;
-  z-index: 3;
-  left: 20%;
-  top: 15vh; }
+  transform: translate(15px, -89vh); }
 
 #cel-img2 {
-  position: relative;
   opacity: 0.5;
   filter: alpha(opacity=50);
-  z-index: 2;
-  left: -22%;
-  top: 10vh; }
+  transform: translate(0px, -45vh); }
 
 #cel-img3 {
-  position: relative;
   opacity: 0.3;
   filter: alpha(opacity=30);
   filter: blur(2px);
-  z-index: 1;
-  left: -10%;
-  top: -42vh; }
+  transform: translate(-15px, 0px); }
 
 body {
   width: auto;

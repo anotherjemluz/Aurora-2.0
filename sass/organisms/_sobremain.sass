@@ -42,26 +42,23 @@ h3
     height: 60vw
 
 #cel-space
-    width: auto
-    height: 70vh
+    width: 70%
+    height: 60%
+    +flex
+    flex-direction: column
 
 #cel-img1
-    position: relative
-    z-index: 3
-    left: 20%
-    top: 15vh
+    transform: translate(15px, -89vh)
 
 #cel-img2
-    position: relative
-    +opacity(0.5)
-    z-index: 2   
-    left: -22%
-    top: 10vh
+    +opacity(0.5)   
+    transform: translate(0px, -45vh)
 
 #cel-img3
-    position: relative
     +opacity(0.3) 
     filter: blur(2px) 
-    z-index: 1
-    left: -10%
-    top: -42vh
+    transform: translate(-15px, 0px)
+
+//translate resolve o problema com z-index e sobreposição
+//tem q ser em px se n fica mt relativo no redimensionamento
+//e n pode esquecer do flex direction se n vai ter wrap
