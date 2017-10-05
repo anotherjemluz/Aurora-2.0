@@ -1,3 +1,5 @@
+@import ../molecules/bprogresso
+
 #oq-content
     +flex
     flex-direction: column-reverse
@@ -25,9 +27,13 @@
 #progresso-content
     text-align: center
 
-#texto-progresso
-    h3
-        text-transform: uppercase
+h3
+    text-transform: uppercase
+
+#lado-a-lado-progresso
+    +flex
+    flex-flow: row nowrap
+    align-items: flex-start
 
 #cel-img1, #cel-img2, #cel-img3
     height: 60vw
