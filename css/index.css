@@ -53,6 +53,12 @@ p {
     flex: 1;
     flex-shrink: 0;
     align-self: center; } }
+#botao-anterior {
+  order: 1; }
+
+#botao-proximo {
+  order: 3; }
+
 #oq-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -87,8 +93,17 @@ p {
 #progresso-content {
   text-align: center; }
 
-#texto-progresso h3 {
+h3 {
   text-transform: uppercase; }
+
+#lado-a-lado-progresso {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start; }
 
 #cel-img1, #cel-img2, #cel-img3 {
   height: 60vw; }
