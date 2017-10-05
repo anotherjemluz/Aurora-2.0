@@ -1,0 +1,52 @@
+=opacity($o)
+    opacity: $o
+    $o-ie: $o * 100
+    filter: alpha(opacity=$o-ie)
+
+
+=background-opacity($color: #000, $opacity: 0.85) 
+    background: $color
+    background: rgba($color, $opacity)
+
+
+//mixins
+=flex
+    display: -webkit-box
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flexbox
+    display: flex
+
+=grid
+    display: -ms-grid    
+    display: grid
+
+=gradient($angle,$gradient1, $gradient2)
+    background-color: $gradient2 
+    background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2))
+    background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:    -moz-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:     -ms-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:      -o-linear-gradient($angle, $gradient1, $gradient2)
+    background-image:         linear-gradient($angle, $gradient1, $gradient2)
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}')
+
+=transition($transition...) 
+    -moz-transition:    all $transition linear
+    -o-transition:      all $transition linear
+    -webkit-transition: all $transition linear
+    transition:         all $transition linear
+
+=border-radius($radius) 
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    -ms-border-radius: $radius
+    border-radius: $radius
+
+@function calculateRem($size) 
+    $remSize: $size / 16px
+    @return $remSize * 1rem
+
+=font-size($size) 
+    font-size: $size
+    font-size: calculateRem($size)

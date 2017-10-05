@@ -1,0 +1,19 @@
+@import ../atoms/padroes
+@import ../molecules/bmenucel
+
+@media (min-width: 320px) and (max-width: 720px)
+    header
+        +flex
+        flex-direction: column-reverse
+
+    ul
+        display: none 
+        list-style-type: none
+
+    #logo
+        width: 60vw
+        height: 96px
+        padding: 10vh 6vh 7vh 4vh
+        flex: 1
+        flex-shrink: 0
+        align-self: center
