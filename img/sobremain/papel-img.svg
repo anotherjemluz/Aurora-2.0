@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2665.4 836.997 127.421 136.103">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Union_2);
+      }
+    </style>
+    <filter id="Union_2" x="-2665.4" y="836.997" width="127.421" height="136.103" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="img" transform="translate(-2762 -561)">
+    <g id="Group_5020" data-name="Group 5020" transform="translate(6 12)">
+      <g class="cls-2" transform="matrix(1, 0, 0, 1, 2756, 549)">
+        <path id="Union_2-2" data-name="Union 2" class="cls-1" d="M29.4,117.1l-.246,0h-.081a10.236,10.236,0,0,1-10.236-10.235V19.821c-.613,2.4-2.341,6.223-7.125,6.223C4.9,26.044.21,22.158,0,13.751c0,.056,0-.13,0-.318C0-.394,12.407-.007,28.866,0l.205,0H79.022l.213,0h.115A10.236,10.236,0,0,1,89.587,10.239V97.281c.614-2.4,2.343-6.221,7.124-6.221,6.808,0,11.5,3.886,11.708,12.293,0-.056,0,.13,0,.318,0,13.818-12.391,13.44-28.832,13.43l-.238,0Z" transform="translate(-2655.9 843.5)"/>
+      </g>
+      <path id="Path_39" data-name="Path 39" class="cls-1" d="M658.21,795.525v1.8c1.556-10.809-4.831-13.675-8.107-13.43s-5.568,3.767-5.4,6.961,2.457,5.732,5.077,5.568,4.34-2.62,4.094-4.176" transform="translate(-539.194 615.481)"/>
+      <path id="Path_41" data-name="Path 41" class="cls-1" d="M13.52,12.548C15.076,1.739,8.688-.226,5.413.019S-.156,3.786.008,6.98s2.457,5.732,5.077,5.568,4.34-2.62,4.094-4.176" transform="translate(203.124 1501.919) rotate(180)"/>
+    </g>
+    <line id="Line_70" data-name="Line 70" class="cls-1" x2="48.7" transform="translate(131.5 1416.5)"/>
+    <line id="Line_75" data-name="Line 75" class="cls-1" x2="48.7" transform="translate(136.5 1433.865)"/>
+    <line id="Line_84" data-name="Line 84" class="cls-1" x2="49" transform="translate(136.5 1485.959)"/>
+    <line id="Line_78" data-name="Line 78" class="cls-1" x2="38" transform="translate(136.5 1451.229)"/>
+    <line id="Line_81" data-name="Line 81" class="cls-1" x2="30" transform="translate(136.5 1503.324)"/>
+    <line id="Line_71" data-name="Line 71" class="cls-1" x2="48.7" transform="translate(135.5 1422.288)"/>
+    <line id="Line_86" data-name="Line 86" class="cls-1" x2="48.7" transform="translate(136.5 1474.382)"/>
+    <line id="Line_74" data-name="Line 74" class="cls-1" x2="21" transform="translate(136.5 1439.653)"/>
+    <line id="Line_77" data-name="Line 77" class="cls-1" x2="33" transform="translate(136.5 1457.018)"/>
+    <line id="Line_85" data-name="Line 85" class="cls-1" x2="41" transform="translate(136.5 1480.171)"/>
+    <line id="Line_73" data-name="Line 73" class="cls-1" x2="48.7" transform="translate(136.5 1445.441)"/>
+    <line id="Line_82" data-name="Line 82" class="cls-1" x2="48.7" transform="translate(136.5 1497.535)"/>
+  </g>
+</svg>

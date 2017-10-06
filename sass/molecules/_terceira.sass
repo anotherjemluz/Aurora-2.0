@@ -1,0 +1,39 @@
+@import ../atoms/padroes
+
+//-----------------------------------------------IMAGEM-------------------------------------
+#pc-space
+    height: 30%
+    width: 30%
+    +flex
+    flex-direction: column
+    display: none
+
+#circle-pc
+    width: 20vw
+    fill: $brancoF7
+    filter: blur(70px)
+    +opacity(0.7)
+    transform: translate(0vw, -35vh)
+    
+//-----------------------------------------------TEXTO-------------------------------------
+#terceira 
+    +flex
+    flex-direction: column
+    align-items: center
+    display: none
+
+    h3
+        margin: 5vh 0vw 3vh 0vw
+    
+#progress-bar-tres
+    height: 10vh
+    width: auto
+
+#maior-tres, #menor-tres
+    stroke: $brancoF7
+    stroke-width: 2vh
+    stroke-linecap: round
+    stroke-linejoin: round
+
+#maior-tres
+    +opacity(0.2) 
