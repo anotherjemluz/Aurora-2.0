@@ -2,43 +2,40 @@
 @import ../atoms/padroes
 
 //-----------------------------------------------IMAGEM-------------------------------------
-#cel-img1, #cel-img2, #cel-img3
-    height: 30vh //esse especificamente tem que ser em vh pela sobreposição das imagens, se nao desalinha tudo em variações de altura da tela
-
 #cel-space
     +flex
+    height: 50vw
     flex-direction: column
-    display: none//img pronta, entao enconde
-    //usar % permite a mesma proporção em diferentes resoluções, vh e w já n tanto assim
+    margin-bottom: 15vh
+
+#cel-img1, #cel-img2, #cel-img3, #circle-cel
+    position: absolute
+    align-self: center
+    height: 50vw //esse especificamente tem que ser em vh pela sobreposição das imagens, se nao desalinha tudo em variações de altura da tela
 
 #cel-img1
-    transform: translate(4vw, -38vh)//Translate resolve o problema com z-index e sobreposição
+    margin-left: 3vw
+    margin-top: 3vw
 
 #cel-img2
     +opacity(0.5)   
-    transform: translate(0vw, -10vh)
 
 #cel-img3
     +opacity(0.3) 
     filter: blur(2px) 
-    transform: translate(-4vw, 18vh)
+    margin-left: -3vw
+    margin-top: -3vw
 
 #circle-cel
     width: 15vw
     fill: $brancoF7
-    filter: blur(60px)
-    +opacity(0.5)
-    transform: translate(0vw, 43vh)
-    align-self: center
+    filter: blur(30px)
+    +opacity(0.7)
     //A ordem no html está diferente da hierarquia da img (fundo, cel borradao, cel borradinho, cel normal)
 
 //-----------------------------------------------TEXTO-------------------------------------
-#primeira 
-    +flex
-    flex-direction: column
-    align-items: center
-    display: none
-
+#etapa1 
+    text-align: center
     h3
         margin: 5vh 0vw 3vh 0vw
     

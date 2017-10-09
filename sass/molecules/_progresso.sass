@@ -1,21 +1,20 @@
 @import ../atoms/padroes
 
 #progresso-content
-    text-align: center
     h1
         margin: 10vh 0vw 15vw 0vw
         display: inline block
+        text-align: center
     h3
         text-transform: uppercase
         font-weight: $bold
+        text-align: center
 
 #lado-a-lado-progresso
     +flex
     flex-direction: column
 
 #dash
-    height: 50vw
-    +flex
-    flex-direction: row //E n pode esquecer do flex direction se n vai ter wrap
-    justify-content: space-between
-    align-items: center
+    margin-top: 20vw
+    position: absolute
+    width: 100%

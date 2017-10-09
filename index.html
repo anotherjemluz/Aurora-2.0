@@ -1,156 +1,154 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Aurora | Sobre</title>
-		<link href="css/index.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<title>Aurora | Sobre</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 
-	</head>
+</head>
 
-	<body>
-		<header>
-			<img id="logo" src="img/header/logo.svg" alt="">
-			<nav class="font-open-sans">
-				<div class="menu-principal">
-					<ul class="ul-principal">
-						<li><a id="ativo" href="index.html">conheça</a></li>
-						<li><a href="blog.html">acompanhe</a></li>
-						<li><a href="siga.html">siga</a></li>
-					</ul>
-				</div>
-				<div class="menu-secundario">
-					<ul class="ul-secundario">
-						<li><a href="">o que é?</a></li>
-						<li><a href="">como surgiu?</a></li>
-						<li><a href="">e o progresso?</a></li>
-					</ul>
-				</div>
-			</nav>
-			<button type="button" id="botao-menu"><img id="seta-menu" src="img/header/seta-menu.svg" alt="seta ilustrada no botão do menu"></img></button>
-		</header>
-		<main class="font-open-sans">
-			<section id="oq-content">	
-				<div id="texto-oq">
-					<h1 id="title-oq">O que é</h1>
-					<p>Aurora é uma ferramenta <br>	
-						voltada para instruir e <br>auxíliar pessoas a <br>compreenderem a saúde <br>mental.
-					</p>	
-				</div>
-				
-				<img id="cerebro-img" src="img/sobremain/cerebro-img.svg" alt="ilustração de um cérebro">
-			</section>
-			
-			<section id="cs-content">
-				<div id="texto-cs">
-					<h1>Como surgiu</h1>
-					<p>Inicialmente em parceiria <br>com uma ONG, a ideia <br>era preparar quem não <br>é diretamente afetado <br>por transtornos mentais, <br>a lidar com essa <br>esfera. <br> <br>
-					Isso culminou em <br>um aplicativo mobile que <br>reune informação e <br>jornada de aprendizado <br>para promover <br>relações assertivas e <br>favorecer a recuperação <br>dos que lidam <br>diariamente com essas <br>condições.
-				</p>	
-				</div>
-				<img id="mobile-img" src="img/sobremain/mobile-img.svg" alt="ilustração de uma lampada acesa, representando a ideia, e de dois celulares, representando o aplicativo">
-			</section>
-			
-			<section id="progresso-content">
-				<h1>O progresso</h1>	
-				<div id="lado-a-lado-progresso">
+<body>
+	<header>
+		<img id="logo" src="img/header/logo.svg" alt="">
+		<nav class="font-open-sans">
+			<div class="menu-principal">
+				<ul class="ul-principal">
+					<li><a id="ativo" href="index.html">conheça</a></li>
+					<li><a href="blog.html">acompanhe</a></li>
+					<li><a href="siga.html">siga</a></li>
+				</ul>
+			</div>
+			<div class="menu-secundario">
+				<ul class="ul-secundario">
+					<li><a href="">o que é?</a></li>
+					<li><a href="">como surgiu?</a></li>
+					<li><a href="">e o progresso?</a></li>
+				</ul>
+			</div>
+		</nav>
+		<button type="button" id="botao-menu"><img id="seta-menu" src="img/header/seta-menu.svg" alt="seta ilustrada no botão do menu"></img></button>
+	</header>
+	<main class="font-open-sans">
+		<section id="oq-content">
+			<div id="texto-oq">
+				<h1 id="title-oq">O que é</h1>
+				<p>Aurora é uma ferramenta <br> voltada para instruir e <br>auxíliar pessoas a <br>compreenderem a saúde <br>mental.
+				</p>
+			</div>
 
+			<img id="cerebro-img" src="img/sobremain/cerebro-img.svg" alt="ilustração de um cérebro">
+		</section>
+
+		<section id="cs-content">
+			<div id="texto-cs">
+				<h1>Como surgiu</h1>
+				<p>Inicialmente em parceiria <br>com uma ONG, a ideia <br>era preparar quem não <br>é diretamente afetado <br>por transtornos
+					mentais, <br>a lidar com essa <br>esfera. <br> <br> Isso culminou em <br>um aplicativo mobile que <br>reune informação
+					e <br>jornada de aprendizado <br>para promover <br>relações assertivas e <br>favorecer a recuperação <br>dos que lidam
+					<br>diariamente com essas <br>condições.
+				</p>
+			</div>
+			<img id="mobile-img" src="img/sobremain/mobile-img.svg" alt="ilustração de uma lampada acesa, representando a ideia, e de dois celulares, representando o aplicativo">
+		</section>
+
+		<section id="progresso-content">
+			<h1>O progresso</h1>
+			<div id="lado-a-lado-progresso">
+				<div id="etapas">
 					<div id="dash">
-						<button type="button" id="botao-anterior"><img src="img/sobremain/seta-esquerda.svg" alt="seta para esquerda"></button>
-						
+						<button type="button" id="botao-anterior"><img src="img/sobremain/seta-esquerda.svg" alt="seta para esquerda" onclick="mudarEtapa(-1)"></button>
+
+						<button type="button" id="botao-proximo"><img src="img/sobremain/seta-direita.svg" alt="seta para direita" onclick="mudarEtapa(+1)"></button>
+					</div>
+					<div id="etapa1">
 						<div id="cel-space">
 							<img id="circle-cel" src="img/sobremain/fundo-papel.svg" alt="fundo desfocado da folha de papel">
-
 							<img id="cel-img3" src="img/sobremain/cel.svg" alt="ilustração de um protótipo de celular">
-							<img id="cel-img2" src="img/sobremain/cel.svg" alt="ilustração de um protótipo de celular">								
+							<img id="cel-img2" src="img/sobremain/cel.svg" alt="ilustração de um protótipo de celular">
 							<img id="cel-img1" src="img/sobremain/cel.svg" alt="ilustração de um protótipo de celular">
 						</div>
-						
-						<div id="papel-space"> 
+						<h3>2016.2</h3>
+						<svg id="progress-bar-um">
+							<line id="maior-um" x1="40" y1="20" x2="260" y2="20" />
+							<line id="menor-um" x1="40" y1="20" x2="110" y2="20" />
+						</svg>
+						<h3>esboçando</h3>
+						<p>Realizamos toda a <br>prototipagem do aplicativo, <br>a fim de materializar <br>o que foi pensado. Isso <br>serviu
+							como validação da <br>idéia e nos deu uma <br>noção da seriedade do <br>projeto.</p>
+					</div>
+
+					<div id="etapa2">
+						<div id="papel-space">
 							<img id="papel-img" src="img/sobremain/papel-img.svg" alt="ilustração de uma folha de papel">
 							<img id="circle-papel" src="img/sobremain/fundo-papel.svg" alt="fundo desfocado da folha de papel">
 						</div>
-						
+						<h3 class="up">2017.1</h3>
+						<svg id="progress-bar-dois">
+							<line id="maior-dois" x1="40" y1="20" x2="260" y2="20" />
+							<line id="menor-dois" x1="110" y1="20" x2="190" y2="20" />
+						</svg>
+						<h3>escrevendo</h3>
+						<p>Agora com a identidade <br>firmada e mecânicas <br>esclarecidas, começamos <br>a concepção do <br>conteúdo em conjunto
+							<br>com parceiros, garantindo <br>assim sua qualidade <br>e confiabilidade.
+						</p>
+					</div>
+
+					<div id="etapa3">
 						<div id="pc-space">
 							<img id="pc-img" src="img/sobremain/pc-img.svg" alt="ilustração de um computador com linhas de código na tela">
 							<img id="circle-pc" src="img/sobremain/fundo-papel.svg" alt="fundo desfocado do computador">
 						</div>
-						
-	
-						<button type="button" id="botao-proximo"><img src="img/sobremain/seta-direita.svg" alt="seta para direita"></button>
+						<h3 class="up">2017.2</h3>
+						<svg id="progress-bar-tres">
+							<line id="maior-tres" x1="40" y1="20" x2="260" y2="20" />
+							<line id="menor-tres" x1="190" y1="20" x2="260" y2="20" />
+						</svg>
+						<h3>programando</h3>
+						<p>Publicamos nosso site <br>e inicamos a jornada <br>na programação do <br>aplicativo, uma revisão <br>de todo o layout,
+							e <br>estudo de possíveis <br>novas mecânicas.
+						</p>
 					</div>
+				</div>
 
-					<div id="etapas">
-						<div id="primeira">
-							<h3>2016.2</h3>
-							<svg id="progress-bar-um">
-								<line id="maior-um" x1="40" y1="20" x2="260" y2="20"/>
-								<line id="menor-um" x1="40" y1="20" x2="110" y2="20"/>
-							</svg>
-							<h3>esboçando</h3>
-							<p>Realizamos toda a <br>prototipagem do aplicativo, <br>a fim de materializar <br>o que foi pensado. Isso <br>serviu como validação da <br>idéia e nos deu uma <br>noção da seriedade do <br>projeto.</p>	
-						</div>
-							
-						<div id="segunda">
-							<h3 class="up">2017.1</h3>
-							<svg id="progress-bar-dois">
-								<line id="maior-dois" x1="40" y1="20" x2="260" y2="20"/>
-								<line id="menor-dois" x1="110" y1="20" x2="190" y2="20"/>
-							</svg>
-							<h3>escrevendo</h3>
-							<p>Agora com a identidade <br>firmada e mecânicas <br>esclarecidas, 
-									começamos <br>a concepção do <br>conteúdo em conjunto <br>com 
-									parceiros, garantindo <br>assim sua qualidade <br>e confiabilidade.
-							</p>	
-						</div>
+			</div>
+		</section>
 
-						<div id="terceira">
-							<h3 class="up">2017.2</h3>
-							<svg id="progress-bar-tres">
-								<line id="maior-tres" x1="40" y1="20" x2="260" y2="20"/>
-								<line id="menor-tres" x1="190" y1="20" x2="260" y2="20"/>
-							</svg>
-							<h3>programando</h3>
-							<p>Publicamos nosso site <br>e inicamos a jornada <br>na programação do <br>aplicativo, uma revisão <br>de todo o layout, e <br>estudo de possíveis <br>novas mecânicas.
-							</p>
-						</div>
-					</div>	
+		<section id="chamada-blog">
+			<h4>Quer ficar por dentro de <br> todo o <strong class="amarelo">desenvolvimento?</strong> </h4>
+			<h4 class="acess-text">você pode</h4>
+			<p id="link-blog">Dá uma olhada no nosso </p>
+			<a id="blog-txt" class="font-open-sans" href="acompanhe_design.html">blog!</a>
+		</section>
 
-				</div>	
-			</section>
-			
-			<section id="chamada-blog">
-				<h4>Quer ficar por dentro de <br> todo o <strong class="amarelo">desenvolvimento?</strong> </h4>
-				<h4 class="acess-text">você pode</h4>
-				<p id="link-blog">Dá uma olhada no nosso </p>
-				<a id="blog-txt" class="font-open-sans" href="acompanhe_design.html">blog!</a>
-			</section>
-				
-			</main>
-		<footer>
-			<div id="top-div">
-				<button id="topbutton" src="images/paginas/footer/top.svg"></button>
-				<!--
-					<button id="topbutton"><a href="#top"><img id="top-img" src="images/paginas/footer/top.svg"></a></button>
-				-->
-				<h4  class="font-open-sans acess-text">voltar para o topo</h4>
-			</div>
-			
-			<div id="chamada-contato">
-				<img id="bunequim-img" src="images/paginas/footer/bunequim.svg" alt="imagem de um bonequinho simpático lhe convidando a ir para página de contato">
-				<h5 class="font-open-sans open-light">GOSTOU? TEM DÚVIDAS?<br><a id="link-contato-footer" class="open-bold" href="siga.html">FALE COM A GENTE!</a></h5>
-			</div>
-			
-			<div id="fb-div">
-					<button id="facebutton"><img id="fb-img" src="images/paginas/footer/facebook.svg"></button>
-					<h4  class="font-open-sans acess-text">visitar o facebook</h4>
-			</div>
+	</main>
+	<footer>
+		<div id="top-div">
+			<a id="botao-top" href="#top"><img id="seta-top" src="img/footer/seta-top.svg"></a>
+			<h4 class="font-open-sans acess-text">voltar para o topo</h4>
+		</div>
 
-			<div id="copy-footer">
-				<h4 id="5ights-footer">5ights © 2017</h4>
-				<h5 class="font-open-sans">Todos os direitos reservados.</h5>
+		<div id="chamada-contato">
+			<img id="bixinho-img" src="img/footer/bixinho.svg" alt="imagem de um bonequinho simpático lhe convidando a ir para página de contato">
+			<div>
+				<h5 class="font-open-sans">GOSTOU? TEM DÚVIDAS?</h5>
+				<a id="link-contato-footer" class="open-bold font-open-sans" href="siga.html">FALE COM A GENTE!</a>
 			</div>
-		</footer>
-	</body>
+		</div>
+
+		<div id="fb-div">
+			<button id="botao-fb"><img id="fb-img" src="img/footer/fb-img.svg"></button>
+			<h4 class="font-open-sans acess-text">visitar o facebook</h4>
+		</div>
+
+		<div id="copy-footer">
+			<h4 id="5ights" class="font-open-sans"><strong class="branco"><strong id="nome" class="amarelo">5</strong>ights</strong> © 2017</h4>
+			<h5 class="font-open-sans">Todos os direitos reservados.</h5>
+		</div>
+	</footer>
+</body>
+
 </html>

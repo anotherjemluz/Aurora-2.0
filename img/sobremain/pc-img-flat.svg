@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2668.721 847.183 132.721 115.217">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-1 {
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        opacity: 0.4;
+      }
+
+      .cls-5 {
+        opacity: 0.6;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        filter: url(#Line_89);
+      }
+
+      .cls-9 {
+        filter: url(#Line_88);
+      }
+
+      .cls-10 {
+        filter: url(#Line_87);
+      }
+
+      .cls-11 {
+        filter: url(#Line_86);
+      }
+
+      .cls-12 {
+        filter: url(#Line_85);
+      }
+
+      .cls-13 {
+        filter: url(#Line_84);
+      }
+
+      .cls-14 {
+        filter: url(#Line_83);
+      }
+
+      .cls-15 {
+        filter: url(#Line_82);
+      }
+    </style>
+    <filter id="Line_82" x="-2650.001" y="860.735" width="57.04" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_83" x="-2650.001" y="866.835" width="76.561" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_84" x="-2650.001" y="872.935" width="49.72" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_85" x="-2650.001" y="879.035" width="91.201" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_86" x="-2650.001" y="885.135" width="91.201" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_87" x="-2650.001" y="891.235" width="91.201" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_88" x="-2650.001" y="897.335" width="82.661" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_89" x="-2650.001" y="903.435" width="27.76" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="pc" transform="translate(-2768 -558)">
+    <g id="Rectangle_4578" data-name="Rectangle 4578" class="cls-1" transform="translate(99.279 1405.183)">
+      <rect class="cls-6" width="132.721" height="83.351" rx="20"/>
+      <rect class="cls-7" x="1.5" y="1.5" width="129.721" height="80.351" rx="18.5"/>
+    </g>
+    <path id="Path_43" data-name="Path 43" class="cls-2" d="M10,1.5H95.881a8.369,8.369,0,0,1,8.5,8.231v1.095a8.369,8.369,0,0,1-8.5,8.231H10a8.369,8.369,0,0,1-8.5-8.231V9.731A8.369,8.369,0,0,1,10,1.5Z" transform="translate(112.699 1500.344)"/>
+    <line id="Line_70" data-name="Line 70" class="cls-3" y2="18" transform="translate(126.389 1501.5)"/>
+    <line id="Line_79" data-name="Line 79" class="cls-3" x1="78.081" transform="translate(126.999 1511.136)"/>
+    <g class="cls-15" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_82-2" data-name="Line 82" class="cls-4" x1="39.04" transform="translate(-2641 867.73)"/>
+    </g>
+    <g class="cls-14" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_83-2" data-name="Line 83" class="cls-2" x1="58.561" transform="translate(-2641 873.83)"/>
+    </g>
+    <g class="cls-13" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_84-2" data-name="Line 84" class="cls-5" x1="31.72" transform="translate(-2641 879.93)"/>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_85-2" data-name="Line 85" class="cls-2" x1="73.201" transform="translate(-2641 886.04)"/>
+    </g>
+    <g class="cls-11" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_86-2" data-name="Line 86" class="cls-2" x1="73.201" transform="translate(-2641 892.14)"/>
+    </g>
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_87-2" data-name="Line 87" class="cls-4" x1="73.201" transform="translate(-2641 898.24)"/>
+    </g>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_88-2" data-name="Line 88" class="cls-5" x1="64.661" transform="translate(-2641 904.34)"/>
+    </g>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 2768, 558)">
+      <line id="Line_89-2" data-name="Line 89" class="cls-2" x1="9.76" transform="translate(-2641 910.44)"/>
+    </g>
+    <line id="Line_71" data-name="Line 71" class="cls-3" y2="18" transform="translate(136.149 1501.5)"/>
+    <line id="Line_72" data-name="Line 72" class="cls-3" y2="18" transform="translate(145.909 1501.5)"/>
+    <line id="Line_73" data-name="Line 73" class="cls-3" y2="18.734" transform="translate(155.669 1500.766)"/>
+    <line id="Line_74" data-name="Line 74" class="cls-3" y2="18" transform="translate(165.5 1501.5)"/>
+    <line id="Line_90" data-name="Line 90" class="cls-2" y2="15.86" transform="translate(155.669 1486.125)"/>
+    <line id="Line_91" data-name="Line 91" class="cls-2" y2="15.86" transform="translate(184.949 1486.125)"/>
+    <line id="Line_75" data-name="Line 75" class="cls-3" y2="18" transform="translate(175.189 1501.5)"/>
+    <line id="Line_76" data-name="Line 76" class="cls-3" y2="18.734" transform="translate(184.949 1500.766)"/>
+    <line id="Line_77" data-name="Line 77" class="cls-3" y2="17.734" transform="translate(194.709 1501.766)"/>
+    <line id="Line_78" data-name="Line 78" class="cls-3" y2="18" transform="translate(204.47 1501.5)"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2633 1817 62.057 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f1f1;
+      }
+
+      .cls-2 {
+        fill: #579cc3;
+        font-size: 60px;
+        font-family: SegoeUI-Semibold, Segoe UI;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Group_5021" data-name="Group 5021" transform="translate(-2762 -616)">
+    <path id="Path_56" data-name="Path 56" class="cls-1" d="M13,0H49.057a13,13,0,0,1,13,13V49.057a13,13,0,0,1-13,13H13a13,13,0,0,1-13-13V13A13,13,0,0,1,13,0Z" transform="translate(129 2435.33)"/>
+    <text id="f" class="cls-2" transform="translate(155.823 2498)"><tspan x="0" y="0">f</tspan></text>
+  </g>
+</svg>
