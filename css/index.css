@@ -360,10 +360,12 @@ body {
 #botao-fb {
   background-color: transparent;
   border: none;
-  border-color: #f7f7f7;
   width: 27vw;
   height: 27vw;
   cursor: pointer; }
+
+i {
+  color: #eeeeee; }
 
 #copy-footer {
   text-align: center;
