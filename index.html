@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<header>
+	<header class="flex">
 		<img id="logo" src="img/header/logo.svg" alt="">
 		<nav class="font-open-sans">
 			<div class="menu-principal">
@@ -33,7 +33,7 @@
 		<button type="button" id="botao-menu"><img id="seta-menu" src="img/header/seta-menu.svg" alt="seta ilustrada no botão do menu"></img></button>
 	</header>
 	<main class="font-open-sans">
-		<section id="oq-content">
+		<section id="oq-content" class="flex">
 			<div id="texto-oq">
 				<h1 id="title-oq">O que é</h1>
 				<p>Aurora é uma ferramenta <br> voltada para instruir e <br>auxíliar pessoas a <br>compreenderem a saúde <br>mental.
@@ -43,7 +43,7 @@
 			<img id="cerebro-img" src="img/sobremain/cerebro-img.svg" alt="ilustração de um cérebro">
 		</section>
 
-		<section id="cs-content">
+		<section id="cs-content" class="flex">
 			<div id="texto-cs">
 				<h1>Como surgiu</h1>
 				<p>Inicialmente em parceiria <br>com uma ONG, a ideia <br>era preparar quem não <br>é diretamente afetado <br>por transtornos
@@ -57,7 +57,7 @@
 
 		<section id="progresso-content">
 			<h1>O progresso</h1>
-			<div id="lado-a-lado-progresso">
+			<div id="lado-a-lado-progresso" class="flex">
 				<div id="etapas">
 					<div id="dash">
 						<button type="button" id="botao-anterior"><img src="img/sobremain/seta-esquerda.svg" alt="seta para esquerda" onclick="mudarEtapa(-1)"></button>
@@ -65,7 +65,7 @@
 						<button type="button" id="botao-proximo"><img src="img/sobremain/seta-direita.svg" alt="seta para direita" onclick="mudarEtapa(+1)"></button>
 					</div>
 					<div id="etapa1">
-						<div id="cel-space">
+						<div id="cel-space" class="flex">
 							<img id="circle-cel" src="img/sobremain/fundo-papel.svg" alt="fundo desfocado da folha de papel">
 							<img id="cel-img3" src="img/sobremain/cel.svg" alt="ilustração de um protótipo de celular">
 							<img id="cel-img2" src="img/sobremain/cel.svg" alt="ilustração de um protótipo de celular">
@@ -82,7 +82,7 @@
 					</div>
 
 					<div id="etapa2">
-						<div id="papel-space">
+						<div id="papel-space" class="flex">
 							<img id="papel-img" src="img/sobremain/papel-img.svg" alt="ilustração de uma folha de papel">
 							<img id="circle-papel" src="img/sobremain/fundo-papel.svg" alt="fundo desfocado da folha de papel">
 						</div>
@@ -98,7 +98,7 @@
 					</div>
 
 					<div id="etapa3">
-						<div id="pc-space">
+						<div id="pc-space" class="flex">
 							<img id="pc-img" src="img/sobremain/pc-img.svg" alt="ilustração de um computador com linhas de código na tela">
 							<img id="circle-pc" src="img/sobremain/fundo-papel.svg" alt="fundo desfocado do computador">
 						</div>
@@ -126,26 +126,26 @@
 
 	</main>
 	<footer>
-		<div id="top-div">
+		<div id="top-div" class="flex">
 			<a id="botao-top" href="#top"><img id="seta-top" src="img/footer/seta-top.svg"></a>
 			<h4 class="font-open-sans acess-text">voltar para o topo</h4>
 		</div>
 
-		<div id="chamada-contato">
+		<div id="chamada-contato" class="flex">
 			<img id="bixinho-img" src="img/footer/bixinho.svg" alt="imagem de um bonequinho simpático lhe convidando a ir para página de contato">
-			<div>
+			<div class="flex">
 				<h5 class="font-open-sans">GOSTOU? TEM DÚVIDAS?</h5>
-				<a id="link-contato-footer" class="open-bold font-open-sans" href="siga.html">FALE COM A GENTE!</a>
+				<a id="link-contato-footer" class="open-bold font-open-sans" href="siga.html">Fale com a gente!</a>
 			</div>
 		</div>
 
-		<div id="fb-div">
+		<div id="fb-div" class="flex">
 			<button id="botao-fb"><img id="fb-img" src="img/footer/fb-img.svg"></button>
 			<h4 class="font-open-sans acess-text">visitar o facebook</h4>
 		</div>
 
 		<div id="copy-footer">
-			<h4 id="5ights" class="font-open-sans"><strong class="branco"><strong id="nome" class="amarelo">5</strong>ights</strong> © 2017</h4>
+			<h4 id="sights" class="font-open-sans"><strong class="branco"><strong id="nome" class="amarelo">5</strong>ights</strong> © 2017</h4>
 			<h5 class="font-open-sans">Todos os direitos reservados.</h5>
 		</div>
 	</footer>

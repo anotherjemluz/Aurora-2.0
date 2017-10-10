@@ -1,3 +1,5 @@
+/*-------------------------------------------------MIXINS----------------------------------- */
+/*--------------------------------------FONTS------------------------------------------------- */
 h1 {
   font-size: 12vw;
   font-weight: 700; }
@@ -16,32 +18,40 @@ p {
   font-weight: 400;
   line-height: 9vw; }
 
+/*---------------------------------------------CLASSES--------------------------------------------- */
 .font-open-sans {
   font-family: Open-Sans, sans-serif;
   color: #eeeeee; }
 
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
+.acess-text {
+  display: none; }
 
-h2 {
-  font-size: 10vw; }
+.amarelo {
+  color: #FFDA66; }
 
-h3 {
-  font-size: 9vw; }
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
-h4 {
-  font-size: 7vw; }
+body {
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #CB829F;
+  background-image: -webkit-gradient(linear, -30deg, from(#4F9EC6), to(#CB829F));
+  background-image: -webkit-linear-gradient(-30deg, #4F9EC6, #CB829F);
+  background-image: -moz-linear-gradient(-30deg, #4F9EC6, #CB829F);
+  background-image: -ms-linear-gradient(-30deg, #4F9EC6, #CB829F);
+  background-image: -o-linear-gradient(-30deg, #4F9EC6, #CB829F);
+  background-image: linear-gradient(-30deg, #4F9EC6, #CB829F);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#4F9EC6', EndColorStr='#CB829F'); }
 
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
+/*---------------------------------------------HEADER---------------------------------------------- */
+/*---------------------BMENUCEL----------------- */
 #botao-menu {
   background-color: #FFDA66;
   border: none;
@@ -65,11 +75,6 @@ p {
 
 @media (min-width: 320px) and (max-width: 720px) {
   header {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
     flex-direction: column-reverse; }
 
   ul {
@@ -83,28 +88,49 @@ p {
     flex: 1;
     flex-shrink: 0;
     align-self: center; } }
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
+/*---------------------------------------------SOBREMAIN--------------------------------------------- */
+/*----------------------OQ------------------- */
+#oq-content {
+  flex-direction: column-reverse;
+  text-align: center;
+  margin-bottom: 15vh; }
 
-h2 {
-  font-size: 10vw; }
+#cerebro-img {
+  height: 35vw; }
 
-h3 {
-  font-size: 9vw; }
+/*-------------------COMOSURGIU------------ */
+#cs-content {
+  flex-direction: column-reverse;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 15vh; }
 
-h4 {
-  font-size: 7vw; }
+#texto-cs h1 {
+  margin-top: 8vh;
+  margin-bottom: 8vh; }
 
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
+#mobile-img {
+  height: 70vw; }
 
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
+/*--------------------PROGRESSO----------------- */
+#progresso-content h1 {
+  margin: 10vh 0vw 15vw 0vw;
+  display: inline block;
+  text-align: center; }
+#progresso-content h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center; }
 
+#lado-a-lado-progresso {
+  flex-direction: column; }
+
+#dash {
+  margin-top: 20vw;
+  position: absolute;
+  width: 100%; }
+
+/*---------------------BPROGRESSO-------------- */
 #botao-proximo, #botao-anterior {
   height: 10vw;
   width: 8vw;
@@ -119,203 +145,9 @@ p {
   margin-right: 5%;
   float: right; }
 
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
-#oq-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column-reverse;
-  text-align: center;
-  margin-bottom: 15vh; }
-
-#cerebro-img {
-  height: 35vw; }
-
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
-#cs-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column-reverse;
-  text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 15vh; }
-
-#texto-cs h1 {
-  margin-top: 8vh;
-  margin-bottom: 8vh; }
-
-#mobile-img {
-  height: 70vw; }
-
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
-#progresso-content h1 {
-  margin: 10vh 0vw 15vw 0vw;
-  display: inline block;
-  text-align: center; }
-#progresso-content h3 {
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center; }
-
-#lado-a-lado-progresso {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column; }
-
-#dash {
-  margin-top: 20vw;
-  position: absolute;
-  width: 100%; }
-
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
-.acess-text {
-  display: none; }
-
-.amarelo {
-  color: #FFDA66; }
-
-#chamada-blog {
-  text-align: center;
-  margin-bottom: 20vh;
-  margin-top: 20vh; }
-  #chamada-blog h4 {
-    font-weight: 600; }
-
-#link-blog {
-  align-self: center;
-  font-weight: 400; }
-
-#blog-txt {
-  text-decoration: none;
-  background-color: #f7f7f7;
-  border-radius: 30vw;
-  color: #528EBC;
-  width: 80%;
-  padding: 2% 25% 2% 25%;
-  font-weight: 700;
-  font-size: 10vw;
-  margin-top: 10%; }
-
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
+/*--------------------ETAPA1---------------- */
+/*---------IMAGEM---------- */
 #cel-space {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
   height: 50vw;
   flex-direction: column;
   margin-bottom: 15vh; }
@@ -347,6 +179,7 @@ p {
   opacity: 0.7;
   filter: alpha(opacity=70); }
 
+/*---------------TEXTO------------ */
 #etapa1 {
   text-align: center; }
   #etapa1 h3 {
@@ -366,35 +199,10 @@ p {
   opacity: 0.2;
   filter: alpha(opacity=20); }
 
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
+/*-----------------------ETAPA2-------------- */
+/*-----------IMAGEM------------ */
 #papel-space {
   height: 40vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center; }
@@ -411,6 +219,7 @@ p {
   opacity: 0.3;
   filter: alpha(opacity=30); }
 
+/*-------------TEXTO------------- */
 #etapa2 {
   text-align: center;
   display: none; }
@@ -431,35 +240,10 @@ p {
   opacity: 0.2;
   filter: alpha(opacity=20); }
 
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
+/*-------------------------ETAPA3----------- */
+/*----------IMAGEM------------ */
 #pc-space {
   height: 40vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
   flex-direction: column;
   align-items: center; }
 
@@ -475,6 +259,7 @@ p {
   opacity: 0.3;
   filter: alpha(opacity=30); }
 
+/*----------------TEXTO----------- */
 #etapa3 {
   text-align: center;
   display: none; }
@@ -495,35 +280,33 @@ p {
   opacity: 0.2;
   filter: alpha(opacity=20); }
 
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
+/*-----------------------CHAMADABLOG-------------- */
+#chamada-blog {
+  text-align: center;
+  margin-bottom: 20vh;
+  margin-top: 20vh; }
+  #chamada-blog h4 {
+    font-weight: 600; }
 
-h2 {
-  font-size: 10vw; }
+#link-blog {
+  align-self: center;
+  font-weight: 400; }
 
-h3 {
-  font-size: 9vw; }
+#blog-txt {
+  text-decoration: none;
+  background-color: #f7f7f7;
+  border-radius: 30vw;
+  color: #528EBC;
+  width: 80%;
+  padding: 2% 25% 2% 25%;
+  font-weight: 700;
+  font-size: 10vw;
+  margin-top: 10%; }
 
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
+/*---------------------------------------------FOOTER----------------------------------------------- */
+/*----------BTOP---------- */
 #top-div {
   width: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
   flex-direction: column;
   align-items: center; }
 
@@ -544,43 +327,12 @@ p {
   transform: rotate(180deg);
   padding: 10% 35% 28% 15%; }
 
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
+/*----------CHAMADA BIXINHO---------------- */
 #chamada-contato {
   width: auto;
   margin: 10vh 0vw 15vh 0vw;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
   flex-direction: row; }
   #chamada-contato div {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
     flex-direction: column;
     padding: 4vw 0vw 0vw 5vw; }
   #chamada-contato h5 {
@@ -596,41 +348,14 @@ p {
     margin-top: 2vw; }
 
 #bixinho-img {
-  height: 35vw;
-  margin-left: -15vw; }
-
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
+  height: 25vw;
+  margin-left: -10vw; }
 
 #fb-div {
   width: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40vw; }
+  margin-bottom: 20vw; }
 
 #botao-fb {
   background-color: transparent;
@@ -640,51 +365,12 @@ p {
   height: 27vw;
   cursor: pointer; }
 
-h1 {
-  font-size: 12vw;
-  font-weight: 700; }
-
-h2 {
-  font-size: 10vw; }
-
-h3 {
-  font-size: 9vw; }
-
-h4 {
-  font-size: 7vw; }
-
-p {
-  font-size: 6vw;
-  font-weight: 400;
-  line-height: 9vw; }
-
-.font-open-sans {
-  font-family: Open-Sans, sans-serif;
-  color: #eeeeee; }
-
-.amarelo {
-  color: #FFDA66; }
-
 #copy-footer {
   text-align: center;
-  color: #f7f7f7; }
-  #copy-footer h5 {
-    margin: 0%; }
+  color: #f7f7f7;
+  margin-bottom: 10vw; }
+  #copy-footer h4, #copy-footer h5 {
+    margin: 3%; }
 
-#5ights strong {
-  font-family: Fanheiti, Serif;
+#sights strong {
   font-weight: light; }
-
-body {
-  width: auto;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-  background-color: #CB829F;
-  background-image: -webkit-gradient(linear, -30deg, from(#4F9EC6), to(#CB829F));
-  background-image: -webkit-linear-gradient(-30deg, #4F9EC6, #CB829F);
-  background-image: -moz-linear-gradient(-30deg, #4F9EC6, #CB829F);
-  background-image: -ms-linear-gradient(-30deg, #4F9EC6, #CB829F);
-  background-image: -o-linear-gradient(-30deg, #4F9EC6, #CB829F);
-  background-image: linear-gradient(-30deg, #4F9EC6, #CB829F);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#4F9EC6', EndColorStr='#CB829F'); }
