@@ -3,11 +3,9 @@
     $o-ie: $o * 100
     filter: alpha(opacity=$o-ie)
 
-
 =background-opacity($color: #000, $opacity: 0.85) 
     background: $color
     background: rgba($color, $opacity)
-
 
 //mixins
 =flex
@@ -16,10 +14,6 @@
     display: -moz-flex
     display: -ms-flexbox
     display: flex
-
-=grid
-    display: -ms-grid    
-    display: grid
 
 =gradient($angle,$gradient1, $gradient2)
     background-color: $gradient2 
@@ -43,10 +37,3 @@
     -ms-border-radius: $radius
     border-radius: $radius
 
-@function calculateRem($size) 
-    $remSize: $size / 16px
-    @return $remSize * 1rem
-
-=font-size($size) 
-    font-size: $size
-    font-size: calculateRem($size)
