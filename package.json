@@ -14,6 +14,7 @@
     "jsdom": "^11.3.0"
   },
   "devDependencies": {
+    "@angular/cli": "^1.4.5",
     "gulp-ruby-sass": "^2.1.1",
     "gulp-watch": "^4.3.11"
   }
