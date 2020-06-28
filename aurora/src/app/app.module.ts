@@ -7,10 +7,11 @@ import { AppComponent } from './app.component';
   declarations: [//lista de componentes, diretivas e pipes a serem utilizados nesse modulo
     AppComponent
   ],
-  imports: [[//lista de modulos a serem utilizados
+  imports: [//lista de modulos a serem utilizados
     BrowserModule
   ],
   providers: [],//lista de serviços disponiveis aos componentes anteriormente declarados
-  bootstrap: [AppComponent]//componente q deve ser instanciado quando executamos a aplicação
+  bootstrap: [AppComponent],//componente q deve ser instanciado quando executamos a aplicação
 })
+
 export class AppModule { }

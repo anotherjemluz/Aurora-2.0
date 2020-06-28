@@ -9,9 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "jquery": "^3.2.1",
-    "jsdom": "^11.3.0"
+    "gulp": "^4.0.2",
+    "jquery": "^3.5.1",
+    "jsdom": "^11.3.0",
+    "natives": "^1.1.6"
   },
   "devDependencies": {
     "@angular/cli": "^1.4.5",
